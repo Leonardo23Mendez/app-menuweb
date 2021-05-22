@@ -39,6 +39,19 @@ nav h2 {
   line-height: 60px;
 }
 
+.image-fondo {
+  background-image: url('./d6b2690b2061452ab8c08dcf9fe4eb4e.png');
+}
+
+.contenido{
+color: #fff;
+height: 200px;
+line-height: 200px;
+text-align: center;
+vertical-align: middle;
+text-shadow: #111 0px 0px 10px;
+}
+
 #contenido {
   width: 700px;
   height: 500px;

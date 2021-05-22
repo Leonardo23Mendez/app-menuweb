@@ -4,7 +4,9 @@ import '../App';
 export default function Contenido(){
     return(
         <article>
-            <h2>CONTENIDO</h2>
+            <div class="image-fondo contenido">
+                <h2>CONTENIDO</h2>
+            </div>
         </article>
     );
 };
