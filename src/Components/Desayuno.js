@@ -4,13 +4,20 @@ import '../App';
 export default function Contenido(){
     return(
         <article>
+          <div align="center" botton="middle">  
            <table>
+               <br></br><br></br>
                     <tr>
                     <th colspan="2">Platillos</th>
                     </tr>
+                    <br></br>
                     <tr>
                         <td>Chilaquiles</td>
                         <td>$149.00</td>
+                    </tr>
+                    <tr>
+                        <td>Sandwich</td>
+                        <td>$35.00</td>
                     </tr>
                     <tr>
                         <td>Birria</td>
@@ -32,22 +39,33 @@ export default function Contenido(){
                         <td>Molletes</td>
                         <td>$89.00</td>
                     </tr>
+                    <br></br>
                     <tr>
-                        <td colspan="2">Bebidas</td>
+                        <th colspan="2">Bebidas</th>
                     </tr>
+                    <br></br>
                     <tr>
                         <td>Café de olla</td>
-                        <td>$69.00</td>
+                        <td>$15.00</td>
                     </tr>
                     <tr>
                         <td>Jugos (naranja, limon, mandarina)</td>
-                        <td>$65.00</td>
+                        <td>$25.00</td>
                     </tr>
                     <tr>
                         <td>Atole</td>
-                        <td>$25.00</td>
+                        <td>$15.00</td>
                     </tr>
-                </table>     
+                    <tr>
+                        <td>Licuados (Chocolate,Platano,Fresa)</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Té (Manzanilla,Limon)</td>
+                        <td>$10.00</td>
+                    </tr>
+                </table>
+            </div>        
         </article>
     );
 };
