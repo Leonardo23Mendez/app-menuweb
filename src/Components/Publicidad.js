@@ -30,7 +30,7 @@ function Publicidad() {
                 <p>CHECA NUESTRAS PROMOCIONES</p>
                 <p>Y DESCUENTOS</p>
                 <br></br><br></br><br></br><br></br><br></br><br></br>
-                <a href="https://www.cocinafacil.com.mx/" class="icon icon-revista" target="_blank">VISITA NUESTRA REVISTA DE COCINA</a><img src= 'https://image.flaticon.com/icons/png/512/858/858929.png' width="100" height="100"></img>
+                <a href="https://www.cocinafacil.com.mx/" class="icon icon-revista" target="_blank">VISITA NUESTRA REVISTA DE RECETAS</a><img src= 'https://image.flaticon.com/icons/png/512/858/858929.png' width="100" height="100"></img>
             </center>
         </div>
     );
