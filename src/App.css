@@ -19,7 +19,7 @@ body{
 
 header{
   height: 150px;
-  background: rgb(248, 215, 29);
+  background: rgb(141, 103, 62);
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
 }
 
 nav {
-  background: rgb(220, 87, 87);
+  background: rgb(85, 75, 63);
   height: 60px;
 }
 
@@ -56,7 +56,7 @@ text-shadow: #111 0px 0px 10px;
   width: 700px;
   height: 500px;
   float: left;
-  background: rgb(191, 103, 56);
+  background: rgb(255, 255, 255);
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -71,7 +71,7 @@ text-shadow: #111 0px 0px 10px;
 aside {
   width: 250px;
   height: 500px;
-  background: rgb(220, 87, 87);
+  background: rgb(85, 75, 63);
   margin-top: 10px;
   float: right;
 }
@@ -83,7 +83,7 @@ aside h2 {
 }
 
 footer {
-  background: rgb(248, 215, 29);;
+  background: rgb(141, 103, 62);;
   clear: both;
 }
 
@@ -91,4 +91,23 @@ footer h2 {
   font-size: 40px;
   text-align: center;
   padding: 20px;
+}
+
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
+
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+}
+
+.ft-legal-list li:nth-last-child(2){
+  flex: 1;
 }
