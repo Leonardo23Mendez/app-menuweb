@@ -22,7 +22,6 @@ function App() {
             </section>
             <aside>
                 <Publicidad></Publicidad>
-                <h2>PUBLICIDAD</h2>
                 
                 <div class="social-bar">
                   <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"><img src= 'https://image.flaticon.com/icons/png/512/747/747374.png' width="20" height="20"></img></a>
