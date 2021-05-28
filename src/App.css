@@ -19,7 +19,7 @@ body{
 
 header{
   height: 150px;
-  background: rgb(248, 215, 29);
+  background: rgb(111, 86, 68);
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
 }
 
 nav {
-  background: rgb(220, 87, 87);
+  background: rgb(126, 110, 110);
   height: 60px;
 }
 
@@ -43,7 +43,7 @@ nav h2 {
   width: 700px;
   height: 500px;
   float: left;
-  background: rgb(191, 103, 56);
+  background: rgb(255, 255, 255);
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -58,7 +58,7 @@ nav h2 {
 aside {
   width: 250px;
   height: 500px;
-  background: rgb(220, 87, 87);
+  background: rgb(126, 110, 110);
   margin-top: 10px;
   float: right;
 }
@@ -70,7 +70,7 @@ aside h2 {
 }
 
 footer {
-  background: rgb(248, 215, 29);;
+  background: rgb(111, 89, 68);
   clear: both;
 }
 
@@ -80,8 +80,36 @@ footer h2 {
   padding: 20px;
 }
 
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list{
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25rem;
+}
+
+.ft-legal {
+  padding: 0.9375rem 1.85rem;
+}
+
+.ft-legal-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+  flex: 1;
+}
+
 #header {
-  background: rgb(220, 87, 87);
+  background: rgb(126, 110, 110);
   margin:auto;
   width:80%;
   font-family:Arial, Helvetica, sans-serif;
@@ -96,7 +124,7 @@ ul, ol {
 }
 
 .nav li a {
-  background-color:rgb(220, 87, 87);
+  background-color:rgb(126, 110, 110);
   color:#ffffff;
   text-decoration:none;
   padding:21px 150px;
