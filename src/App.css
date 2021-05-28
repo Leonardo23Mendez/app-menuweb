@@ -19,7 +19,7 @@ body{
 
 header{
   height: 150px;
-  background: rgb(141, 103, 62);
+  background: rgb(248, 215, 29);
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
 }
 
 nav {
-  background: rgb(109, 109, 109);
+  background: rgb(220, 87, 87);
   height: 60px;
 }
 
@@ -39,20 +39,11 @@ nav h2 {
   line-height: 60px;
 }
 
-.contenido{
-color: #fff;
-height: 200px;
-line-height: 200px;
-text-align: center;
-vertical-align: middle;
-text-shadow: #111 0px 0px 10px;
-}
-
 #contenido {
   width: 700px;
   height: 500px;
   float: left;
-  background: rgb(255, 255, 255);
+  background: rgb(191, 103, 56);
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -67,7 +58,7 @@ text-shadow: #111 0px 0px 10px;
 aside {
   width: 250px;
   height: 500px;
-  background: rgb(141, 103, 62);
+  background: rgb(220, 87, 87);
   margin-top: 10px;
   float: right;
 }
@@ -79,7 +70,7 @@ aside h2 {
 }
 
 footer {
-  background: rgb(141, 103, 62);;
+  background: rgb(248, 215, 29);;
   clear: both;
 }
 
@@ -89,21 +80,44 @@ footer h2 {
   padding: 20px;
 }
 
-.ft-legal {
-  padding: 0.9375rem 1.875rem;
-  background-color: rgb(109, 109, 109);
+#header {
+  background: rgb(220, 87, 87);
+  margin:auto;
+  width:80%;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.ft-legal-list {
-  width: 100%;
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:rgb(220, 87, 87);
+  color:#ffffff;
+  text-decoration:none;
+  padding:21px 150px;
+  display:block;
+  text-shadow: #111 0px 0px 10px;
+  transition: all 0.4s linear;
+}
+
+.nav li a:hover {
+  background-color:#4B4D4A;
+}
+                  
+.logo-nav-container{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
-.ft-legal-list li {
-  margin: 0.125rem 0.625rem;
+                
+.container{
+  letter-spacing: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10rem;                        
 }
-
-.ft-legal-list li:nth-last-child(2){
-  flex: 1;
-}
+              
