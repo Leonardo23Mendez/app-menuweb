@@ -2,70 +2,46 @@ import React from 'react';
 import '../App';
 
 export default function Contenido(){
-    return(
-        <article>
-          <div align="center" botton="middle">  
-           <table>
-               <br></br>
-                    <tr>
-                    <th colspan="2">Platillos</th>
-                    </tr>
-                    <br></br>
-                    <tr>
-                        <td>Chilaquiles</td>
-                        <td>$149.00</td>
-                    </tr>
-                    <tr>
-                        <td>Sandwich</td>
-                        <td>$35.00</td>
-                    </tr>
-                    <tr>
-                        <td>Birria</td>
-                        <td>$199.00</td>
-                    </tr>
-                    <tr>
-                        <td>Coctel de frutas</td>
-                        <td>$99.00</td>
-                    </tr>
-                    <tr>
-                        <td>Huevos a la mexicana</td>
-                        <td>$139.00</td>
-                    </tr>
-                    <tr>
-                        <td>Huevos ahogados</td>
-                        <td>$129.00</td>
-                    </tr>
-                    <tr>
-                        <td>Molletes</td>
-                        <td>$89.00</td>
-                    </tr>
-                    <br></br>
-                    <tr>
-                        <th colspan="2">Bebidas</th>
-                    </tr>
-                    <br></br>
-                    <tr>
-                        <td>Café de olla</td>
-                        <td>$15.00</td>
-                    </tr>
-                    <tr>
-                        <td>Jugos (naranja, limon, mandarina)</td>
-                        <td>$25.00</td>
-                    </tr>
-                    <tr>
-                        <td>Atole</td>
-                        <td>$15.00</td>
-                    </tr>
-                    <tr>
-                        <td>Licuados (Chocolate,Platano,Fresa)</td>
-                        <td>$35.00</td>
-                    </tr>
-                    <tr>
-                        <td>Té (Manzanilla,Limon)</td>
-                        <td>$10.00</td>
-                    </tr>
-                </table>
-            </div>        
-        </article>
-    );
-};
+    
+    const menu= [{platillo:"Chilaquiles", simbolo:"$", precio:149},{platillo:"Sandwich", simbolo:"$", precio:35},{platillo:"Birria", simbolo:"$", precio:80},{platillo:"Coctel de frutas", simbolo:"$", precio:40},
+                 {platillo:"Huevo a la mexicana", simbolo:"$", precio:35},{platillo:"Huevos ahogados", simbolo:"$", precio:45},{platillo:"Molletes", simbolo:"$", precio:45},] 
+                 console.log((menu))
+
+    const menu1= [{bebida:"Café de olla", simbolo:"$", precio:15},{bebida:"Jugo (Naranja,Limon,Mandarina)", simbolo:"$", precio:20},{bebida:"Atole (Chocolate,Cajeta,Galleta)", simbolo:"$", precio:15},
+                 {bebida:"Licuado (Chocolate,Platano,Fresa,Mamey,Avena)", simbolo:"$",  precio:25},{bebida:"Té", simbolo:"$", precio:10},]             
+                 console.log((menu1))
+
+                    return(
+                        <article>
+                            <div align="center" botton="middle">  
+                                <table>
+                                    <br></br><br></br>
+                                    <tr>
+                                    <th colspan="2">Platillos</th>
+                                    </tr>
+                                    <br></br>
+                                        {menu.map((platillo,i)=>(
+                                            <tr>
+                                                <td>{platillo.platillo}</td>
+                                                <td>{platillo.simbolo}</td>
+                                                <td>{platillo.precio}</td>
+                                            </tr>
+                                         ))}
+
+                                    <br></br>
+                                    <tr>
+                                        <th colspan="2">Bebidas</th>
+                                    </tr>
+                                    <br></br>
+                                        {menu1.map((bebida,i)=>(
+                                            <tr>
+                                                <td>{bebida.bebida}</td>
+                                                <td>{bebida.simbolo}</td>
+                                                <td>{bebida.precio}</td>
+                                            </tr>
+                                        ))}    
+                                </table>
+                            </div>        
+                        </article>
+                    );
+                };
