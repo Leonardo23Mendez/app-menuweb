@@ -6,7 +6,7 @@ export default function Contenido(){
         <article>
           <div align="center" botton="middle"> 
             <table>
-                <br></br>
+               
                 <tr>
                     <th colspan="2">Entradas</th>
                 </tr>
@@ -46,14 +46,6 @@ export default function Contenido(){
                     <td>Carne asada / Arrachera</td>
                     <td>$159.00</td>
                 </tr>
-                <tr>
-                    <td>Filete de pescado empanizado</td>
-                    <td>$139.00</td>
-                </tr>
-                <tr>
-                    <td>Molletes</td>
-                    <td>$79.00</td>
-                </tr>
                 <br></br>
                 <tr>
                     <th colspan="2">Bebidas</th>
@@ -74,10 +66,6 @@ export default function Contenido(){
                 <tr>
                     <td>Refresco de cola</td>
                     <td>$30.00</td>
-                </tr>
-                <tr>
-                    <td>Café</td>
-                    <td>$25.00</td>
                 </tr>
                 <tr>
                     <td>Té / Te orgánico </td>

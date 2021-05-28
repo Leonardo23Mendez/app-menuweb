@@ -6,7 +6,7 @@ export default function Contenido(){
         <article>
           <div align="center" botton="middle">  
            <table>
-               <br></br><br></br>
+               <br></br>
                     <tr>
                     <th colspan="2">Platillos</th>
                     </tr>

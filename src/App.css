@@ -28,6 +28,10 @@ header h1 {
   line-height: 150px;
 }
 
+header img {
+  line-height: 160px;
+}
+
 nav {
   background: rgb(126, 110, 110);
   height: 60px;
@@ -53,7 +57,7 @@ nav h2 {
   width: 700px;
   height: 500px;
   float: left;
-  background: rgb(112, 8, 8);
+  background: rgb(56, 53, 53);
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -62,7 +66,7 @@ nav h2 {
 #contenido h2 {
   font-size: 40px;
   text-align: center;
-  line-height: 500px;
+  line-height: 10px;
 }
 
 aside {

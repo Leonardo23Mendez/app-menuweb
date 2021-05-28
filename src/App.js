@@ -38,7 +38,7 @@ function App() {
                             </nav>
                             <Switch>
                             <Route path="/INICIO">
-                                    <section id="contenido1"><Inicio></Inicio></section>
+                                    <section id="contenido"><Inicio></Inicio></section>
                                 </Route>
                                 <Route path="/DESAYUNO">
                                     <section id="contenido"><Desayuno></Desayuno></section>
