@@ -29,7 +29,7 @@ header h1 {
 }
 
 nav {
-  background: rgb(85, 75, 63);
+  background: rgb(109, 109, 109);
   height: 60px;
 }
 
@@ -37,10 +37,6 @@ nav h2 {
   font-size: 40px;
   text-align: center;
   line-height: 60px;
-}
-
-.image-fondo {
-  background-image: url('./d6b2690b2061452ab8c08dcf9fe4eb4e.png');
 }
 
 .contenido{
@@ -71,7 +67,7 @@ text-shadow: #111 0px 0px 10px;
 aside {
   width: 250px;
   height: 500px;
-  background: rgb(85, 75, 63);
+  background: rgb(141, 103, 62);
   margin-top: 10px;
   float: right;
 }
@@ -95,7 +91,7 @@ footer h2 {
 
 .ft-legal {
   padding: 0.9375rem 1.875rem;
-  background-color: #333;
+  background-color: rgb(109, 109, 109);
 }
 
 .ft-legal-list {

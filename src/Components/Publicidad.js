@@ -26,6 +26,8 @@ function Publicidad() {
         <div className="App">
             <center>
                 <img src={qr} alt=""/>
+                <p>CHECA NUESTRAS PROMOCIONES</p>
+                <p>Y DESCUENTOS</p>
             </center>
         </div>
     );
