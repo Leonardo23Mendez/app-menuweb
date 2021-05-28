@@ -43,7 +43,17 @@ nav h2 {
   width: 700px;
   height: 500px;
   float: left;
-  background: rgb(255, 255, 255);
+  background: rgb(213, 213, 213);
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#contenido1 {
+  width: 700px;
+  height: 500px;
+  float: left;
+  background: rgb(112, 8, 8);
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -127,7 +137,7 @@ ul, ol {
   background-color:rgb(126, 110, 110);
   color:#ffffff;
   text-decoration:none;
-  padding:21px 150px;
+  padding:21px 100px;
   display:block;
   text-shadow: #111 0px 0px 10px;
   transition: all 0.4s linear;

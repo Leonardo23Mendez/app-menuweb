@@ -3,9 +3,17 @@ import './App.css';
 import './Socialbar.css';
 import Head from './Components/Head';
 import Contenido from './Components/Contenido';
-import Menu from './Components/Menu';
 import Foot from './Components/Foot';
 import Publicidad from './Components/Publicidad';
+import Comida from './Components/Comida';
+import Desayuno from './Components/Desayuno';
+import Inicio from './Components/Inicio';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function App() {
   return (
@@ -15,11 +23,33 @@ function App() {
     </head>
     <body>
         <div id="contenedor">
+
             <Head></Head>
-            <Menu></Menu>
-            <section id="contenido">
-                <Contenido></Contenido>
-            </section>
+                    <Router>
+                        <div>
+                            <nav>
+                            <div id="header">
+                                <ul class="nav logo-nav-container">
+                                    <li><Link to="/INICIO">INICIO</Link></li>
+                                    <li><Link to="/DESAYUNO">DESAYUNO</Link></li>
+                                    <li><Link to="/COMIDA">COMIDA</Link></li>
+                                </ul>
+                                </div>
+                            </nav>
+                            <Switch>
+                            <Route path="/INICIO">
+                                    <section id="contenido1"><Inicio></Inicio></section>
+                                </Route>
+                                <Route path="/DESAYUNO">
+                                    <section id="contenido"><Desayuno></Desayuno></section>
+                                </Route>
+                                <Route path="/COMIDA">
+                                    <section id="contenido"><Comida></Comida></section>
+                                </Route>
+                            </Switch>
+                        </div>
+                    </Router>
+
             <aside>
                 <Publicidad></Publicidad>
                 
